@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<p id="moves">Moves: 0</p>
+<table>
+
+  <tr>
+    <td id="1" onclick="move(1)">1</td>
+    <td id="2" onclick="move(2)">2</td>
+    <td id="3" onclick="move(3)">3</td>
+  </tr>
+
+  <tr>
+    <td id="4" onclick="move(4)">4</td>
+    <td id="5" onclick="move(5)">5</td>
+    <td id="6" onclick="move(6)">6</td>
+  </tr>
+
+  <tr>
+    <td id="7" onclick="move(7)">7</td>
+    <td id="8" onclick="move(8)">8</td>
+    <td id="9" onclick="move(9)"> </td>
+  </tr>
+
+</table>
+
+<p><input type="button" id="reset" value="重排" onclick="reset()"></p>
+<p><input type="button" id="solve" value="查看求解过程" onclick="autowin()"></p>
+		<div id="message">
+
+        </div>
+<script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script src="/static/js/start.js"></script>
+</body>
+</html>

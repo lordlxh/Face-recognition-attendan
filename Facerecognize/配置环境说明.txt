@@ -1,0 +1,7 @@
+Python 3.7
+Django 3.0.4
+pymysql 1.0.2
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --default-timeout=100 opencv-python paddlehub paddlepaddle-gpu
+在cmd此文件目录下运行python manage.py runserver 0.0.0.0:8000即可
+
+
